@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        Konto k1 = new Konto("Samir", 100);
+
+        k1.einzahlen(50);
+        k1.abheben(30);
+
+        System.out.println(k1.getKontostand());
+    }
+}
